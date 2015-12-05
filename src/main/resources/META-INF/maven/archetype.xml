@@ -6,8 +6,9 @@
         <source>src/main/java/App.java</source>
     </sources>
     <resources>
-        <resource>src/main/resources</resource>
-        <resource>src/main/webapp</resource>
+        <resource>src/main/resources/application.properties</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>src/main/webapp/index.jsp</resource>
     </resources>
 
     <testSources>
