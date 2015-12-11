@@ -48,3 +48,10 @@
 	2. cd create_java_web_project_one_command
 	3. mvn install
 	4. mvn archetype:generate -DarchetypeGroupId=com.loobo -DarchetypeArtifactId=AutoGenerateJavaWebProject -DarchetypeVersion=1.0 -DgroupId=your.group.id -DartifactId=your_artifactId -DinteractiveMode=false
+	
+
+新建一个spring 项目
+
+	mvn archetype:generate -DarchetypeGroupId=com.loobo -DarchetypeArtifactId=AutoGenerateSpringWebProject  -DarchetypeVersion=1.0 -DgroupId=com.loobo -DartifactId=TestAutoGenerateSpringProject -DinteractiveMode=false
+	
+		
