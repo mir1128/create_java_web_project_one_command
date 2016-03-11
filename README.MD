@@ -2,7 +2,7 @@
 
 用maven新建一个java项目的命令是：
 
-	mvn archetype:create -DgroupId=com.demo -DartifactId=App
+	mvn archetype:generate -DgroupId=com.demo -DartifactId=App
 
 生成的目录结构为：
 	
@@ -22,7 +22,7 @@
 
 新建一个web项目
 
-	mvn archetype:create -DgroupId=com.demo -DartifactId=web-app -DarchetypeArtifactId=maven-archetype-webapp
+	mvn archetype:generate -DgroupId=com.demo -DartifactId=web-app -DarchetypeArtifactId=maven-archetype-webapp
 
 生成目录结构为：
 
