@@ -55,3 +55,4 @@
 	mvn archetype:generate -DarchetypeGroupId=com.loobo -DarchetypeArtifactId=AutoGenerateSpringWebProject  -DarchetypeVersion=1.0 -DgroupId=com.loobo -DartifactId=TestAutoGenerateSpringProject -DinteractiveMode=false
 	
 		
+
